@@ -1,0 +1,133 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<TextView
+		android:id="@+id/mainlaber"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:padding="8dp"
+		android:text="TherionRO's Simple Stress Tools"
+		android:textSize="20sp"
+		android:textStyle="bold"
+		android:textColor="#E91E63"
+		android:layout_gravity="center_horizontal" />
+	<ScrollView
+		android:id="@+id/scrollcontainer1"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:padding="8dp">
+		<LinearLayout
+			android:id="@+id/Container1"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:padding="8dp"
+			android:orientation="vertical">
+			<TextView
+				android:id="@+id/VERSION_CODE"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="v1.1"
+				android:textSize="14sp"
+				android:textStyle="bold"
+				android:textColor="#9C27B0"
+				android:layout_gravity="center_horizontal" />
+			<Button
+				android:id="@+id/button_1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="Android Toast"
+				android:textSize="18sp"
+				android:textStyle="bold"
+				android:textColor="#2196F3"
+				android:layout_gravity="center_horizontal" />
+			<EditText
+				android:id="@+id/edittext_1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="Subscribe to TherionRO on YouTube"
+				android:textSize="12sp"
+				android:textColor="#01579B"
+				android:hint="Type your own toast here!"
+				android:textColorHint="#5C6BC0"
+				android:singleLine="true"
+				android:layout_gravity="center_horizontal" />
+			<Button
+				android:id="@+id/button_2"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="Android Data Junk Injector (10)"
+				android:textSize="18sp"
+				android:textStyle="bold"
+				android:textColor="#2196F3"
+				android:layout_gravity="center_horizontal" />
+			<TextView
+				android:id="@+id/textview_data1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="Creates 10 random named folers in Android/Data"
+				android:textSize="14sp"
+				android:textStyle="bold"
+				android:textColor="#03A9F4"
+				android:layout_gravity="center_horizontal" />
+			<Button
+				android:id="@+id/button_3"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="CPU&amp;SCREEN Freezer"
+				android:textSize="18sp"
+				android:textStyle="bold"
+				android:textColor="#2196F3"
+				android:layout_gravity="center_horizontal" />
+			<TextView
+				android:id="@+id/gggg"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="Creates random toasts and dialogs,and spams all events. (May not work on newer versions of Android)"
+				android:textSize="14sp"
+				android:textStyle="bold"
+				android:textColor="#03A9F4"
+				android:layout_gravity="center_horizontal" />
+			<Button
+				android:id="@+id/button_4"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="Android Data Deleter (O.M.)"
+				android:textSize="18sp"
+				android:textStyle="bold"
+				android:textColor="#2196F3"
+				android:layout_gravity="center_horizontal" />
+			<TextView
+				android:id="@+id/gg"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="Deletes Android/Data (May not work on newer versions Android)"
+				android:textSize="14sp"
+				android:textStyle="bold"
+				android:textColor="#03A9F4"
+				android:layout_gravity="center_horizontal" />
+			<TextView
+				android:id="@+id/updatebutnotupdate"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="(Still in work,check the github page and update the app to the newest version for all the features.)"
+				android:textSize="11sp"
+				android:textStyle="bold"
+				android:textColor="#F44336"
+				android:layout_gravity="center_horizontal" />
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>

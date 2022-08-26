@@ -1,0 +1,65 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<TextView
+		android:id="@+id/ttstextlabelMAIN"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:padding="8dp"
+		android:text="TherionRO's Simple Stress Tools"
+		android:textSize="25sp"
+		android:textStyle="bold|italic"
+		android:textColor="#F44336"
+		android:layout_gravity="center_horizontal" />
+	<TextView
+		android:id="@+id/susususus"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:padding="8dp"
+		android:text="Hello! This app contains malicious codes that can damage your device! Please use this carefully,this app was made for developers to test out their AV software.This app only contains SIMPLE STRESS TOOLS. Don't hate the app just because the tools aren't &quot;too advanced&quot; or this don't have too many tools,that's why the project its called SIMPLE STRESS TOOLS."
+		android:textSize="16sp"
+		android:textStyle="bold"
+		android:textColor="#F44336" />
+	<TextView
+		android:id="@+id/therionroonytb"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:padding="8dp"
+		android:text="I am NOT responsible for any damage you did to your device using this app,only this use app if you know what you are doing."
+		android:textSize="14sp"
+		android:textStyle="bold"
+		android:textColor="#9C27B0" />
+	<CheckBox
+		android:id="@+id/therionrocom"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:padding="8dp"
+		android:text="I agree to everything ."
+		android:textSize="18sp"
+		android:textStyle="bold"
+		android:textColor="#00BCD4"
+		android:layout_gravity="center_horizontal" />
+	<Button
+		android:id="@+id/mainbutton"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:padding="8dp"
+		android:text="Bring me the tools."
+		android:textSize="25sp"
+		android:textStyle="bold"
+		android:textColor="#F44336"
+		android:layout_gravity="center_horizontal" />
+	<TextView
+		android:id="@+id/oslicenceOG"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:padding="8dp"
+		android:text="You can edit this project if you want,its a open source project."
+		android:textSize="11sp"
+		android:textColor="#000000"
+		android:layout_gravity="center_horizontal" />
+</LinearLayout>
